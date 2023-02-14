@@ -1,0 +1,65 @@
+body{
+    background-color: #000000;
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+}
+
+.header{
+    background-color: #2E2E2E;
+    height: 3.5rem;
+    width: 100%;
+    border-bottom: 0.11rem solid #AD0000;
+}
+
+.main{
+    display: block;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #2E2E2E;
+    height: 3.5rem;
+    width: 100%;
+}
+
+#titelText{
+    position: absolute;
+    top: 5%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+#titelDark, #titleWeb{
+    font-size: xx-large;
+}
+
+#logo{
+    height: 8%;
+    position: absolute;
+    top: 4.8%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+#LauchButton{
+    background-color: black;
+    display: block;
+    
+    color:#AD0000;
+    font-weight: bold;
+    font-size: large;
+
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    height: 80%;
+
+    border-radius: 6%;
+}
+
