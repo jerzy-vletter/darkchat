@@ -8,7 +8,7 @@ h1{
 }
 
 .header{
-    background-color: #2E2E2E;
+    background-color: #252525;
     height: 3.5rem;
     width: 100%;
     border-bottom: 0.11rem solid #AD0000;
@@ -21,7 +21,7 @@ h1{
 .footer{
     position: absolute;
     bottom: 0;
-    background-color: #2E2E2E;
+    background-color: #252525;
     height: 3.5rem;
     width: 100%;
 }
@@ -29,7 +29,7 @@ h1{
 #titelText{
     position: absolute;
     top: 5%;
-    left: 51%;
+    left: 52%;
     transform: translate(-50%, -50%);
 }
 #titelDark, #titleWeb{
