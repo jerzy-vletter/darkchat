@@ -44,9 +44,12 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-#LauchButton{
-    background-color: black;
+#LauchContainer{
     display: block;
+}
+
+.LauchButton{
+    background-color: black;
     
     color:#AD0000;
     font-weight: bold;
@@ -61,5 +64,21 @@ h1{
     height: 80%;
 
     border-radius: 6%;
+}
+
+.LauchButton-fade-out{
+    opacity: 0;
+    animation: fadeOut 500ms;
+}
+
+@keyframes fadeOut {
+    from
+    {
+        opacity: 1;
+    }
+    to
+    {
+        opacity: 0;
+    }
 }
 
