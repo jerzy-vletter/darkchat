@@ -48,6 +48,10 @@ h1{
     display: block;
 }
 
+#textingContainer{
+    display: none;
+}
+
 .LauchButton{
     background-color: black;
     
@@ -69,6 +73,62 @@ h1{
 .LauchButton-fade-out{
     opacity: 0;
     animation: fadeOut 500ms;
+}
+
+.texting-fade-in, .sendMsg{
+    opacity: 1;
+    animation: fadeIn 500ms;
+}
+
+#texting{
+    background: black;
+    
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    
+    width: 70%;
+    height: 60%;
+
+    border: 0.11rem solid #AD0000;
+}
+
+#sendMsg{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    
+    width: 16%;
+    height: 76%;
+
+    background-image: url(../img/sendMsg_button_icon.png);
+    background-size: 100% auto;
+    background-position-x: center;
+    background-position-y: center;
+
+    border: 0.13rem solid #000000;
+    border-radius: 100%;
+}
+
+input, select, textarea{
+    color: #AD0000;
+}
+
+textarea:focus, input:focus {
+    color: #AD0000;
+}
+
+@keyframes fadeIn {
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeOut {
