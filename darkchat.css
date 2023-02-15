@@ -70,12 +70,12 @@ h1{
     border-radius: 6%;
 }
 
-.LauchButton-fade-out{
+.LauchButton-fade-out, .texting-fade-out, .sendMsg-fade-out{
     opacity: 0;
     animation: fadeOut 500ms;
 }
 
-.texting-fade-in, .sendMsg{
+.texting-fade-in, .sendMsg-fade-in, .LauchButton-fade-in{
     opacity: 1;
     animation: fadeIn 500ms;
 }
