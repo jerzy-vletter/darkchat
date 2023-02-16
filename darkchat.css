@@ -81,6 +81,8 @@ h1{
 }
 
 #texting{
+    display: none;
+
     background: black;
     
     position: absolute;
@@ -95,6 +97,8 @@ h1{
 }
 
 #sendMsg{
+    display: none;
+
     position: absolute;
     top: 50%;
     left: 85%;
@@ -134,7 +138,7 @@ textarea:focus, input:focus {
 @keyframes fadeOut {
     from
     {
-        opacity: 1;
+         opacity: 1;
     }
     to
     {
